@@ -1,5 +1,10 @@
-const initBg = (autoplay = true) => {
-    const bgImgsNames = ['diagoona-bg-1.jpg', 'diagoona-bg-2.jpg', 'diagoona-bg-3.jpg'];
+const initBg = (kancelaria = false, autoplay = true) => {
+	if (kancelaria == true) {
+		bgImgsNames = ['diagoona-bg-0.jpg', 'diagoona-bg-1.jpg', 'diagoona-bg-2.jpg', 'diagoona-bg-3.jpg'];
+	}
+	else {
+		bgImgsNames = ['diagoona-bg-1.jpg', 'diagoona-bg-2.jpg', 'diagoona-bg-3.jpg'];
+	}
     const bgImgs = bgImgsNames.map(img => "img/" + img);
 
     $.backstretch(bgImgs, {duration: 10000, fade: 500});
@@ -31,7 +36,12 @@ const setBgOverlay = () => {
 
 $(document).ready(function () {
     const autoplayBg = true;	// set Auto Play for Background Images
-    initBg(autoplayBg);    
+
+	if ($('.nav-item.active').hasClass('nav-kancelaria')) {
+		initBg(true, autoplayBg);    
+	} else {
+		initBg(false, autoplayBg);    
+	}
     setBgOverlay();
 
     const bgControl = $('.tm-bg-control');            
