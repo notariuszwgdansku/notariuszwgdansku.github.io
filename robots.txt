@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /fontawesome/
 
 Sitemap: https://www.notariuszwgdansku.com/sitemap.xml
