@@ -355,13 +355,13 @@ div.backstretch-item > img[src="img/diagoona-bg-0.jpg"] {
 
 @media (max-width: 960px) {
 	div.backstretch-item > img[src="img/diagoona-bg-0.jpg"] {
-		margin-left: 250px !important;
+		margin-left: 200px !important;
 	}
 }
 
 @media (max-width: 660px) {
 	div.backstretch-item > img[src="img/diagoona-bg-0.jpg"] {
-		margin-left: 300px !important;
+		margin-left: 250px !important;
 	}
 }
 
