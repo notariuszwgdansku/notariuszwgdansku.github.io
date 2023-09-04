@@ -241,6 +241,25 @@ textarea {
 .form-control:-ms-input-placeholder { color: white; } /* Internet Explorer 10-11 */
 .form-control::placeholder { color: white; }
 
+
+.tm-sitename {
+	margin: 0;
+	margin-top: 5px;
+}
+
+.tm-slogon {
+	margin-left: 3px;
+}
+
+.godlo {
+	margin-top: 12px;
+	margin-right: 12px;
+}
+
+div.backstretch-item > img[src="img/diagoona-bg-0.jpg"] {
+	margin-left: 0 !important;
+}
+
 @media (max-width: 1200px) {
     .nav-item { margin-right: 30px; }
 
@@ -334,9 +353,16 @@ textarea {
     }
 }
 
-.tm-sitename {
-	margin: 0;
-	margin-top: 5px;
+@media (max-width: 960px) {
+	div.backstretch-item > img[src="img/diagoona-bg-0.jpg"] {
+		margin-left: 250px !important;
+	}
+}
+
+@media (max-width: 660px) {
+	div.backstretch-item > img[src="img/diagoona-bg-0.jpg"] {
+		margin-left: 300px !important;
+	}
 }
 
 @media (max-width: 460px) {
@@ -356,12 +382,3 @@ textarea {
     .tm-service-img-r { margin-left: 0; }
 }
 
-
-.tm-slogon {
-	margin-left: 3px;
-}
-
-.godlo {
-	margin-top: 12px;
-	margin-right: 12px;
-}

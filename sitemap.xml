@@ -1,32 +1,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.notariuszwgdansku.com/</loc>
-		<lastmod>2023-09-03</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>1.0</priority>
+		<loc>https://www.notariuszwgdansku.com/index.html</loc>
+		<lastmod>2023-09-04</lastmod>
 	</url>
 	<url>
 		<loc>https://www.notariuszwgdansku.com/czynnosci.html</loc>
-		<lastmod>2023-09-03</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
+		<lastmod>2023-09-04</lastmod>
 	</url>
 	<url>
 		<loc>https://www.notariuszwgdansku.com/dokumenty.html</loc>
-		<lastmod>2023-09-03</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
+		<lastmod>2023-09-04</lastmod>
 	</url>
 	<url>
 		<loc>https://www.notariuszwgdansku.com/oplaty.html</loc>
-		<lastmod>2023-09-03</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.9</priority>
+		<lastmod>2023-09-04</lastmod>
 	</url>
 	<url>
 		<loc>https://www.notariuszwgdansku.com/kontakt.html</loc>
-		<lastmod>2023-09-03</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>1.0</priority>
+		<lastmod>2023-09-04</lastmod>
 	</url>
 </urlset>
