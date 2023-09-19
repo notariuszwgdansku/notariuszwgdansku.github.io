@@ -57,7 +57,10 @@ p { line-height: 1.9; }
     padding-bottom: 30px;
 }
 
-.nav-item { margin-right: 30px; }
+.nav-item { 
+	margin-right: 30px;
+	font-style: italic;
+}
 
 .nav-item:last-child { margin-right: 0; }
 
