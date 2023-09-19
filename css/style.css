@@ -57,8 +57,9 @@ p { line-height: 1.9; }
     padding-bottom: 30px;
 }
 
-.nav-item { 
-	margin-right: 30px;
+.nav-item { margin-right: 30px; }
+
+.nav-item a.nav-link { 
 	font-style: italic;
 }
 
